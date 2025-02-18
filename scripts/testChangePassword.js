@@ -7,7 +7,7 @@ mongoose.connect(database.url, {useMongoClient: true});
 var User = require('../app/server/models/User');
 var UserController = require('../app/server/controllers/UserController');
 
-var email = 'hacker@school.edu';
+var email = 'fortnite.s4pport@gmail.com';
 
 User.findOne({
   email: email
